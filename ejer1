@@ -1,0 +1,32 @@
+#include <iostream>
+#include <stdlib.h>
+#include <math.h>
+using namespace std;
+
+int main()
+{ 
+ float A, B, S, R, D, M;
+ cout <<"OPERACIONES ARITMETICAS";
+ cout << endl;
+ cout << "Escriba un Numero:\n";
+ cin >> A;
+ cout << "Escriba un segundo Numero:\n";
+ cin >> B;
+ S = A + B;
+ R = A - B;
+ D = A / B;
+ M = (A*B);
+
+cout << "su Suma es:\t" << S << endl;
+cout << "\n" << endl;
+cout << "La resta de:\t" << A << "-" << B << "=" << R << endl;
+cout << "\n" << endl;
+cout << "la Multiplicacion es:\t" << A << "x" << B << "=" << M << endl;
+cout << "\n" << endl;
+cout << "La Division de:\t" << A << "/" << B << "=" << D << endl;
+cout << "\n" << endl;
+system("pause");
+return 0;
+}
+
+
